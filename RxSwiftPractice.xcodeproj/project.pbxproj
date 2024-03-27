@@ -19,6 +19,8 @@
 		2BB8C9E42BB45357008A2AD9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2BB8C9E32BB45357008A2AD9 /* RxCocoa */; };
 		2BB8C9E62BB45357008A2AD9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2BB8C9E52BB45357008A2AD9 /* RxSwift */; };
 		2BB8C9E92BB45374008A2AD9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BB8C9E82BB45374008A2AD9 /* SnapKit */; };
+		2BB8C9ED2BB45B5B008A2AD9 /* ValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9EC2BB45B5B008A2AD9 /* ValidationView.swift */; };
+		2BB8C9EF2BB45B64008A2AD9 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9EE2BB45B64008A2AD9 /* ValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		2BB8C9DC2BB4501A008A2AD9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2BB8C9DE2BB45028008A2AD9 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		2BB8C9E02BB450A3008A2AD9 /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		2BB8C9EC2BB45B5B008A2AD9 /* ValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationView.swift; sourceTree = "<group>"; };
+		2BB8C9EE2BB45B64008A2AD9 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		2BB8C9C72BB44FAF008A2AD9 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				2BB8C9EB2BB45B4C008A2AD9 /* Validation */,
 				2BB8C9EA2BB4584C008A2AD9 /* Nembers */,
 				2BB8C9C82BB44FAF008A2AD9 /* AppDelegate.swift */,
 				2BB8C9CA2BB44FAF008A2AD9 /* SceneDelegate.swift */,
@@ -88,6 +93,15 @@
 				2BB8C9E02BB450A3008A2AD9 /* NumbersView.swift */,
 			);
 			path = Nembers;
+			sourceTree = "<group>";
+		};
+		2BB8C9EB2BB45B4C008A2AD9 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				2BB8C9EC2BB45B5B008A2AD9 /* ValidationView.swift */,
+				2BB8C9EE2BB45B64008A2AD9 /* ValidationViewController.swift */,
+			);
+			path = Validation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +187,8 @@
 				2BB8C9CD2BB44FAF008A2AD9 /* NumbersViewController.swift in Sources */,
 				2BB8C9DD2BB4501A008A2AD9 /* BaseViewController.swift in Sources */,
 				2BB8C9DF2BB45028008A2AD9 /* BaseView.swift in Sources */,
+				2BB8C9EF2BB45B64008A2AD9 /* ValidationViewController.swift in Sources */,
+				2BB8C9ED2BB45B5B008A2AD9 /* ValidationView.swift in Sources */,
 				2BB8C9E12BB450A3008A2AD9 /* NumbersView.swift in Sources */,
 				2BB8C9C92BB44FAF008A2AD9 /* AppDelegate.swift in Sources */,
 				2BB8C9CB2BB44FAF008A2AD9 /* SceneDelegate.swift in Sources */,
