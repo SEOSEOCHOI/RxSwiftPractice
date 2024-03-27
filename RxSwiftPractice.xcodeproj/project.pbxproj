@@ -24,6 +24,8 @@
 		2BB8C9F22BB46473008A2AD9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9F12BB46473008A2AD9 /* TableViewController.swift */; };
 		2BB8C9F42BB46488008A2AD9 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9F32BB46488008A2AD9 /* TableView.swift */; };
 		2BB8C9F62BB46590008A2AD9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9F52BB46590008A2AD9 /* TableViewCell.swift */; };
+		2BB8C9F92BB4838F008A2AD9 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9F82BB4838F008A2AD9 /* PickerViewController.swift */; };
+		2BB8C9FB2BB483BF008A2AD9 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB8C9FA2BB483BF008A2AD9 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		2BB8C9F12BB46473008A2AD9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2BB8C9F32BB46488008A2AD9 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		2BB8C9F52BB46590008A2AD9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2BB8C9F82BB4838F008A2AD9 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		2BB8C9FA2BB483BF008A2AD9 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		2BB8C9C72BB44FAF008A2AD9 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				2BB8C9F72BB4837D008A2AD9 /* PickerView */,
 				2BB8C9EA2BB4584C008A2AD9 /* Nembers */,
 				2BB8C9EB2BB45B4C008A2AD9 /* Validation */,
 				2BB8C9F02BB46459008A2AD9 /* TableView */,
@@ -119,6 +124,15 @@
 				2BB8C9F52BB46590008A2AD9 /* TableViewCell.swift */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		2BB8C9F72BB4837D008A2AD9 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				2BB8C9F82BB4838F008A2AD9 /* PickerViewController.swift */,
+				2BB8C9FA2BB483BF008A2AD9 /* PickerView.swift */,
+			);
+			path = PickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +221,10 @@
 				2BB8C9DF2BB45028008A2AD9 /* BaseView.swift in Sources */,
 				2BB8C9EF2BB45B64008A2AD9 /* ValidationViewController.swift in Sources */,
 				2BB8C9ED2BB45B5B008A2AD9 /* ValidationView.swift in Sources */,
+				2BB8C9F92BB4838F008A2AD9 /* PickerViewController.swift in Sources */,
 				2BB8C9F62BB46590008A2AD9 /* TableViewCell.swift in Sources */,
 				2BB8C9E12BB450A3008A2AD9 /* NumbersView.swift in Sources */,
+				2BB8C9FB2BB483BF008A2AD9 /* PickerView.swift in Sources */,
 				2BB8C9C92BB44FAF008A2AD9 /* AppDelegate.swift in Sources */,
 				2BB8C9F22BB46473008A2AD9 /* TableViewController.swift in Sources */,
 				2BB8C9CB2BB44FAF008A2AD9 /* SceneDelegate.swift in Sources */,
